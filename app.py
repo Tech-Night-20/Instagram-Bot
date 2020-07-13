@@ -1,6 +1,5 @@
 from selenium import webdriver
 import time
-import numpy as np
 
 class InstaBot:
   def __init__(self, username, pw):
@@ -43,5 +42,5 @@ class InstaBot:
     return names
 
 
-myBot = InstaBot('p.r.i.t.a.m.m', 'Pritam98@')
+myBot = InstaBot('your_username', 'your_password')
 myBot.get_unfollowers()
